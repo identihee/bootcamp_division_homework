@@ -7,6 +7,21 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int i, n, s;
+    scanf("%d", &n);
+    s=0;
+    i=1;
+
+    while (n<1){
+    if (n<=0){
+        printf("X");
+        scanf("%d", &n);
+    }
+    while (i<=n){
+        s+=i;
+        i++;
+    }}
+    printf("%d", s);
 
     return 0;
 }

@@ -7,6 +7,24 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
-    return 0;
+    #include <stdio.h>
+    int month, days, year;
+    scanf("%d %d", &year, &month);
+    switch (month) {
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            days = 31;
+            break;
+        case 2:
+            days = (!(year % 4) && (year % 100 != 0))||!(year % 400) ? 29 : 28;
+            break;
+        default:
+            days = 30;
+    }
+    printf("%d", days);
 }

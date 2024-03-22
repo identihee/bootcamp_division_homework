@@ -7,6 +7,23 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int x;
+    scanf("%d",&x);
 
+    if (x>=90){
+        printf("A");
+    }
+    else if (x>=80){
+        printf("B");
+    }
+    else if (x>=70){
+        printf("C");
+    }
+    else if (x>=60){
+        printf("D");
+    }
+    else if (x<60){
+        printf("F");
+    }
     return 0;
 }

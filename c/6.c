@@ -7,6 +7,17 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    char x;
+    scanf("%c", &x);
+
+    switch(x) {
+        case 'a': case 'e': case 'i': case 'o': case 'u':
+        printf("O");
+        break;
+        default:
+        printf("X");
+    }
+
 
     return 0;
 }

@@ -7,6 +7,16 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int x, y;
+    scanf("%d", &x);
+    scanf("%d", &y);
+
+    if ((x>=14)||(y>=160)){
+        printf("X");
+    }
+    else
+        printf("O");
+
 
     return 0;
 }
